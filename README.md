@@ -5,9 +5,9 @@ A cookiecutter template for creating new [vidtoolz Plugins](https://github.com/s
 
 ## Installation
 
-You'll need to have [cookiecutter](https://cookiecutter.readthedocs.io/) installed. I recommend pipx for this:
+You'll need to have [cookiecutter](https://cookiecutter.readthedocs.io/) installed. I recommend uv for this:
 ```bash
-pipx install cookiecutter
+uv pip install cookiecutter
 ```
 Regular `pip` will work OK too.
 
