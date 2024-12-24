@@ -9,15 +9,22 @@
 
 ## Installation
 
-First configure your vidtoolz project [to use vidtoolz](https://github.com/sukhbinder/vidtoolz).
+First install [vidtoolz](https://github.com/sukhbinder/vidtoolz).
+
+```bash
+pip install vidtoolz
+```
 
 Then install this plugin in the same environment as your vidtoolz application.
+
 ```bash
-pip install {{ cookiecutter.hyphenated }}
+vidtoolz install {{ cookiecutter.hyphenated }}
 ```
 ## Usage
 
-Usage instructions go here.
+type ``{{ cookiecutter.hyphenated }} --help`` to get help
+
+
 
 ## Development
 
