@@ -22,7 +22,7 @@ vidtoolz install {{ cookiecutter.hyphenated }}
 ```
 ## Usage
 
-type ``{{ cookiecutter.hyphenated }} --help`` to get help
+type ``vid {{ cookiecutter.entry_name }} --help`` to get help
 
 
 
