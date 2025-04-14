@@ -15,7 +15,11 @@ class ViztoolzPlugin:
     @vidtoolz.hookimpl
     def register_commands(self, subparser):
         self.parser = create_parser(subparser)
-        self.parser.set_defaults(func=self.hello)
+        self.parser.set_defaults(func=self.run)
+
+    def run(self, args):
+        # add actual call here
+        pass
     
     def hello(self, args):
         # this routine will be called when "vidtoolz "{{cookiecutter.entry_name}} is called."
